@@ -1,7 +1,7 @@
 # Data Structures & Algorithms (DSA)
 
 Welcome to the **DSA** repository!  
-This collection is dedicated to mastering data structures and algorithms through clear explanations and practical code examples.
+This collection is dedicated to mastering data structures and algorithms through clear explanations and practical code examples. 
 
 ---
 
@@ -48,3 +48,5 @@ If you find this repository helpful, please star ⭐ it and share with others!
 ---
 
 > **Happy Coding!**
+
+YEEET!!🙌🙌
