@@ -2,13 +2,13 @@
 
 #include<stdio.h>
 
-struct Student {
+struct Student { // structure name
     char name[20];
     int roll_no;
     float cpi;
 };
 
-int main(){
+int main(){ // main function 
     int i,n; 
     printf("Enter the number of records you want to store : ");
     scanf("%d", &n);
@@ -32,5 +32,5 @@ int main(){
 
     printf("\n--- End of Records ---\n");
 
-    return 0;
+    return 0; // Program end
 }
