@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> // input output header file
 #include <string.h> // for removing trailing newline
 
 // Defining a structure named 'Mobile'
