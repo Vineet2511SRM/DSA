@@ -1,13 +1,13 @@
 // Nested Structure Example in C
 
 #include<stdio.h>
-struct Details {
+struct Details { // first structure 
     int MobileNumber;
     char Profession[20];
     float Salary;
 };
 
-struct Person { 
+struct Person { // second structure 
     char name[50];
     int age;
     char hobby[30];
@@ -30,7 +30,7 @@ int main() {
 
     // Taking input for the nested structure
     printf("Enter mobile number: ");
-    scanf("%d", &p.det.MobileNumber);
+    scanf("%d", &p.det.MobileNumber); // use of nested structure 
     
     printf("Enter profession: ");
     getchar(); // To consume the newline character left by previous scanf
