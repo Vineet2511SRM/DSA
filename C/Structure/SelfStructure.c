@@ -19,5 +19,7 @@ int main(){
     printf("Value of first node: %d\n", mem1.value);
     printf("Value of second node: %d\n", mem1.next->value);
 
+    printf("%d ", mem1.next); // Address of the second node
+
     return 0; // Program end
 }
