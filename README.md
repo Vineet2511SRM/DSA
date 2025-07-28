@@ -5,7 +5,7 @@ This collection is dedicated to mastering data structures and algorithms through
 
 ---
 
-## 📚 Contents
+## 📚 Contents...
 
 - **Data Structures**
     - Arrays
@@ -23,7 +23,7 @@ This collection is dedicated to mastering data structures and algorithms through
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Getting Started...
 
 1. **Clone the repository:**
      ```bash
@@ -34,14 +34,14 @@ This collection is dedicated to mastering data structures and algorithms through
 
 ---
 
-## 📝 Contributing
+## 📝 Contributing...
 
 Contributions are welcome!  
 Feel free to open issues or submit pull requests to improve this resource.
 
 ---
 
-## ⭐️ Support
+## ⭐️ Support...
 
 If you find this repository helpful, please star ⭐ it and share with others!
 
