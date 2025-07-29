@@ -6,10 +6,10 @@ struct mem {
 }mem1,mem2;
 
 int main(){
-    mem1.value = 10; // Assigning value to first node
+    mem1.value = 100; // Assigning value to first node
     mem1.next = NULL; // Initializing next pointer to NULL
 
-    mem2.value = 20; // Assigning value to second node
+    mem2.value = 200; // Assigning value to second node
     mem2.next = NULL; // Initializing next pointer to NULL
 
     // Linking the first node to the second node
