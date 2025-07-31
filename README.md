@@ -74,7 +74,6 @@ Wanna connect, collaborate, or ask questions?
 📨 Drop a DM, raise an issue, or create a discussion thread.
 Let's learn & build, one DSA problem at a time.
 
-📜 License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-
+<p align="center"> 💬 “First, solve the problem. Then, write the code.” – John Johnson </p>
+🎯 Let's Crack DSA & Ace That Interview! 👊
+Happy Coding! 💻❤️
