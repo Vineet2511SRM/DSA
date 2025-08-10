@@ -1,36 +1,35 @@
-// C program to read and print student information using array of structures
+#include <stdio.h>
 
-#include<stdio.h>
-
-struct Student { // structure name
+struct Student {
     char name[20];
     int roll_no;
     float cpi;
 };
 
-int main(){ // main function 
-    int i,n; 
-    printf("Enter the number of records you want to store : ");
+int main() {
+    int i, n;
+    printf("Enter the number of records you want to store: ");
     scanf("%d", &n);
+    getchar(); // consume the newline after entering n
 
-    struct Student sarr[n]; // Declare an array of structures
-    for(i = 0; i < n; i++){
-        printf("Enter the name of student %d: ", i + 1);
-        scanf("%s", sarr[i].name); // Input name
-        printf("Enter the roll number of student %d: ", i + 1);
-        scanf("%d", &sarr[i].roll_no); // Input roll number
-        printf("Enter the CPI of student %d: ", i + 1);
-        scanf("%f", &sarr[i].cpi); // Input CPI
-    }
+    struct Student sarr[n];
 
-    // Displaying the records
-    printf("\n--- Student Records ---\n");
-    printf("\n\tName\tRoll No\tCPI\t\n");
     for (i = 0; i < n; i++) {
-        printf("\t%s\t%d\t%.2f\n", sarr[i].name, sarr[i].roll_no, sarr[i].cpi);
+        printf("Enter the name of student %d: ", i + 1);
+        scanf(" %[^\n]", sarr[i].name); // read full line until newline
+        printf("Enter the roll number of student %d: ", i + 1);
+        scanf("%d", &sarr[i].roll_no);
+        printf("Enter the CPI of student %d: ", i + 1);
+        scanf("%f", &sarr[i].cpi);
+        getchar(); // consume newline before next name
     }
 
+    printf("\n--- Student Records ---\n");
+    printf("\n\tName\t\tRoll No\tCPI\n");
+    for (i = 0; i < n; i++) {
+        printf("\t%-15s %d\t%.2f\n", sarr[i].name, sarr[i].roll_no, sarr[i].cpi);
+    }
     printf("\n--- End of Records ---\n");
 
-    return 0; // Program end
+    return 0;
 }
