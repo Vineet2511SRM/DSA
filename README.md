@@ -21,7 +21,7 @@
 
 💡 Greedy Techniques
 
-🧭 Graph Traversals (DFS, BFS, etc.)
+🧭 Graph Traversals (DFS, BFS, etc.....)
 
 🧑‍💻 Getting Started
 Clone the repository to your local machine:
