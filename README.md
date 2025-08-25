@@ -1,5 +1,5 @@
 🌟 Data Structures & Algorithms(DSA)
-<p align="center"> <img src="https://img.shields.io/badge/Language-C++%20%7C%20Java%20%7C%20C-blue.svg?style=flat-square"/> <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square"/> <img src="https://img.shields.io/github/stars/your-username/DSA?style=social"/> </p> <p align="center"> 🚀 A curated collection of essential Data Structures and Algorithms with clean code, crystal-clear explanations, and real coding practice. </p>
+<p align="center"> <img src="https://img.shields.io/badge/Language-C++%20%7C%20Java%20%7C%20C-blue.svg?style=flat-square"/> <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square"/> <img src="https://img.shields.io/github/stars/VINEE2511SRM/DSA?style=social"/> </p> <p align="center"> 🚀 A curated collection of essential Data Structures and Algorithms with clean code, crystal-clear explanations, and real coding practice. </p>
 📂 Table of Contents
 📦 Data Structures
 📌 Arrays
