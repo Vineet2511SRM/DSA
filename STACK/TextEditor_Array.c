@@ -69,6 +69,10 @@ void reset() {
     undoTop = redoTop = -1;
 }
 
+void printDoc() {
+    printf("\"%s\"\n", doc);
+}
+
 // ---------- MAIN ----------
 int main() {
     char command[100], str[100];
@@ -102,7 +106,7 @@ int main() {
             reset();
         }
         else if (strncmp(command, "PRINT", 5) == 0) {
-            printf("\"%s\"\n", doc);
+            printDoc();
         }
         else {
             printf("Invalid command! Try again.\n");
