@@ -42,6 +42,8 @@ char* popRedo() {
 
 void clearRedo() { redoTop = -1; }
 
+// ---------- OPERATIONS ----------
+
 void type(char *str) {
     pushUndo(doc);
     strcat(doc, str);
